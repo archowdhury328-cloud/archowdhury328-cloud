@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <b>School of Business, University of the Cumberlands</b> · Los Angeles, CA, USA
+  <b>School of Business, University of the Cumberlands</b> · Williamsburg, KY, USA
 </p>
 
 ---
