@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="Md Asikur Rahman Chy, AI and Business Analytics Researcher">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070910"/>
+      <stop offset="1" stop-color="#110c2a"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c9b8ff"/>
+      <stop offset="0.5" stop-color="#9B7BFF"/>
+      <stop offset="1" stop-color="#69D9E8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.45" r="0.5">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9B7BFF"/>
+      <stop offset="1" stop-color="#69D9E8"/>
+    </linearGradient>
+    <style>
+      .ring { fill: none; stroke: #9B7BFF; }
+      @keyframes drift { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .orbit { transform-origin: 1010px 170px; animation: drift 90s linear infinite; }
+      @media (prefers-reduced-motion: reduce) { .orbit { animation: none; } }
+    </style>
+  </defs>
+  <rect width="1280" height="340" rx="22" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="22" fill="url(#glow)"/>
+  <g opacity="0.5">
+    <path d="M0 60H1280M0 120H1280M0 180H1280M0 240H1280M0 300H1280" stroke="#ffffff" stroke-opacity="0.03"/>
+    <path d="M160 0V340M320 0V340M480 0V340M640 0V340M800 0V340M960 0V340M1120 0V340" stroke="#ffffff" stroke-opacity="0.03"/>
+  </g>
+  <!-- contour lines -->
+  <g transform="translate(1010 170)">
+    <ellipse class="ring" rx="70" ry="40" stroke-opacity="0.55"/>
+    <ellipse class="ring" rx="115" ry="66" stroke-opacity="0.42"/>
+    <ellipse class="ring" rx="160" ry="92" stroke-opacity="0.32"/>
+    <ellipse class="ring" rx="205" ry="118" stroke-opacity="0.22"/>
+    <ellipse class="ring" rx="250" ry="144" stroke-opacity="0.14"/>
+    <circle r="26" fill="#9B7BFF" opacity="0.9"/>
+    <circle r="42" fill="#9B7BFF" opacity="0.15"/>
+  </g>
+  <g class="orbit">
+    <circle cx="1125" cy="170" r="8" fill="#69D9E8"/>
+    <rect x="1002" y="70" width="14" height="14" fill="#9B7BFF" transform="rotate(20 1009 77)"/>
+    <polygon points="850,190 860,172 870,190" fill="#E76F9A"/>
+    <polygon points="1010,255 1020,265 1010,275 1000,265" fill="#F4A261"/>
+    <circle cx="905" cy="105" r="7" fill="none" stroke="#8BD17C" stroke-width="3"/>
+  </g>
+  <!-- monogram -->
+  <rect x="64" y="58" width="58" height="58" rx="13" fill="#0b0e1a" stroke="url(#mark)" stroke-width="2.5"/>
+  <path d="M77 103V73h4.2l11.8 16.4L104.8 73H109v30h-5V82.6L94.6 96h-3.2L82 82.6V103Z" fill="url(#mark)"/>
+  <text x="140" y="96" font-family="Menlo, Consolas, monospace" font-size="17" letter-spacing="4" fill="#b7a2ff">AI &amp; BUSINESS ANALYTICS RESEARCHER</text>
+  <text x="62" y="190" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="#F3F5FA">Md Asikur</text>
+  <text x="62" y="258" font-family="Georgia, 'Times New Roman', serif" font-size="66" fill="url(#name)">Rahman Chy</text>
+  <text x="64" y="304" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#AAB4C8">Research at the intersection of AI, analytics, and real-world decisions.</text>
+</svg>
